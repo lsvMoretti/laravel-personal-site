@@ -11,11 +11,13 @@
                 {{$experience->company}}
             </a>
             <p class="pointer-events-none">{{$experience->description}}</p>
-            <div class="pointer-events-auto flex flex-row flex-wrap gap-2">
-                @foreach($experience->tags as $tag)
-                    <p class="border-2 border-cyan-600/50 rounded-full min-w-12 px-2 text-center font-bold cursor-default bg-cyan-600/30 hover:!text-slate-200">{{$tag}}</p>
-                @endforeach
-            </div>
+            @if(!empty($experience->tags))
+                <div class="pointer-events-auto flex flex-row flex-wrap gap-2">
+                    @foreach($experience->tags as $tag)
+                        <p class="border-2 border-cyan-600/50 rounded-full min-w-12 px-2 text-center font-bold cursor-default bg-cyan-600/30 hover:!text-slate-200">{{$tag}}</p>
+                    @endforeach
+                </div>
+            @endif
         </div>
     </div>
 @else
