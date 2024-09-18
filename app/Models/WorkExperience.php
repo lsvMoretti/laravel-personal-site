@@ -9,6 +9,16 @@ class WorkExperience extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'start_date',
+        'end_date',
+        'role',
+        'company',
+        'website',
+        'description',
+        'tags',
+    ];
+
     protected function casts(): array
     {
         return [
