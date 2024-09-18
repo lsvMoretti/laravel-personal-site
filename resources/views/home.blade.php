@@ -60,9 +60,8 @@
                         Thank you for visiting my page! I’m currently {{$ageYears}} years old, based in the UK, and
                         working
                         as a Software Engineer at <a href="https://iasme.co.uk/"
-                                                     class="hover:cursor-pointer hover:underline text-slate-300 font-bold hover:text-sky-400">
-                            The IASME Consortium Limited
-                        </a>.
+                                                     class="pointer-events-auto hover:cursor-pointer hover:underline text-slate-300 font-bold hover:text-sky-400">
+                            The IASME Consortium Limited</a>.
                     </p>
                     <p>
                         My journey into software engineering began in February 2023. Prior to that, I worked in my
