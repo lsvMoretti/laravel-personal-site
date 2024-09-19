@@ -24,6 +24,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/d3272a6c6d.js" crossorigin="anonymous"></script>
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body class="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-sky-700 selection:text-sky-300 pointer-events-none">

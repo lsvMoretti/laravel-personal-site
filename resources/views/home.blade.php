@@ -7,10 +7,10 @@
          style="background-image: url('{{asset('bg.jpg')}}');" id="home">
         <div class="flex-grow flex flex-col justify-evenly items-center gap-4">
             <div class="flex flex-col gap-6">
-                <h1 class="font-extrabold text-5xl text-center text-slate-300">
+                <h1 class="font-extrabold text-5xl text-center text-slate-300 animate__animated animate__slideInDown">
                     Andrew Cade
                 </h1>
-                <h2 class="font-bold text-3xl text-center text-slate-300">
+                <h2 class="font-bold text-3xl text-center text-slate-300 animate__animated animate__slideInLeft">
                     Software Engineer
                 </h2>
             </div>
