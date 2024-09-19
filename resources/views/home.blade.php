@@ -14,22 +14,23 @@
                     Software Engineer
                 </h2>
             </div>
-
-            <div class="flex flex-row mx-auto justify-center gap-12 items-center pointer-events-auto">
-                <a class="hover:text-slate-300 hover:font-bold text-2xl" href="#about">About</a>
-                <a class="hover:text-slate-300 hover:font-bold text-2xl" href="#skills">Skills</a>
-                <a class="hover:text-slate-300 hover:font-bold text-2xl" href="#experience">Experience</a>
-                <a class="hover:text-slate-300 hover:font-bold text-2xl" href="#projects">Projects</a>
+            <div class="grid grid-cols-1 grid-rows-4 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-12 mx-auto justify-center items-center pointer-events-auto px-4">
+                <a class="hover:text-slate-300 hover:font-bold text-2xl text-center"
+                   href="#about">About</a>
+                <a class="hover:text-slate-300 hover:font-bold text-2xl text-center"
+                   href="#skills">Skills</a>
+                <a class="hover:text-slate-300 hover:font-bold text-2xl text-center" href="#experience">Experience</a>
+                <a class="hover:text-slate-300 hover:font-bold text-2xl text-center" href="#projects">Projects</a>
             </div>
-            <div class="flex flex-row mx-auto justify-center gap-12 items-center pointer-events-auto">
+            <div class="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 mx-auto justify-center gap-6 md:gap-12 items-center pointer-events-auto px-4">
                 <a href="https://github.com/lsvMoretti" class="hover:text-slate-200"><i
-                            class="fa-brands fa-github text-5xl"></i></a>
+                            class="fa-brands fa-github text-3xl md:text-5xl"></i></a>
                 <a href="https://medium.com/@andrew_cade" class="hover:text-slate-200"><i
-                            class="fa-brands fa-medium text-5xl"></i></a>
+                            class="fa-brands fa-medium text-3xl md:text-5xl"></i></a>
                 <a href="https://x.com/unsociable_dev" class="hover:text-slate-200"><i
-                            class="fa-brands fa-x-twitter text-5xl"></i></a>
+                            class="fa-brands fa-x-twitter text-3xl md:text-5xl"></i></a>
                 <a href="https://www.upwork.com/freelancers/~017448aa08bd5fd772" class="hover:text-slate-200">
-                    <i class="fa-brands fa-upwork text-5xl"></i>
+                    <i class="fa-brands fa-upwork text-3xl md:text-5xl"></i>
                 </a>
             </div>
         </div>
