@@ -168,7 +168,8 @@
                 <x-project :title="'Personal Website (Laravel)'"
                            :link="'some-site.com'"
                            :tags="['Laravel', 'PHP', 'TailwindCSS', 'MySQL']">
-                    This was my second personal site, I decided after working a lot with Laravel to re-write my website,
+                    This was my current personal site, I decided after working a lot with Laravel to re-write my
+                    website,
                     with the idea of future expansion to include a personal area for Project and Client management as
                     well as a test bed for testing and learning more about Laravel.
                 </x-project>
